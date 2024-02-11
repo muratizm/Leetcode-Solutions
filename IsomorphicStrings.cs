@@ -29,7 +29,7 @@ namespace Leetcode
             return true;
         }
 
-        //öğrenip ezberlemem yalamam yutmam gerken çözüm
+        //better
         public bool CanConstruct2(string ransomNote, string magazine) {
             var map = new int[26];
 

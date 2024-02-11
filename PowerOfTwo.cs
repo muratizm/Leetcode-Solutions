@@ -3,9 +3,9 @@
     public class PowerOfTwo {
         public bool IsPowerOfTwo(int n) {
             return Math.Log2(n) % 1 == 0;    
-            //eğer log2(n) tam sayı döndürüyorsa bu sayı 2nin kuvvetidir mesela 8 16 32 gibi
-            //ama ondalıklı sayı döndürüyorsa 2nin kuvveti değildir 48 veya 6 olabilir mesela
-            //bunu detect etmek için ise %1 == 0 tekniğini kullandım
+            //if log2(n) returns an integer, this number is a power of 2, such as 8 16 32
+             //but if it returns a decimal number, it is not a power of 2, it could be 48 or 6 for example
+             //I used the %1 == 0 technique to detect this
         }
     }
 }
